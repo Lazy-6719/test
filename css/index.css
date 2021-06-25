@@ -1,0 +1,268 @@
+.container{ width:1080px; margin:0 auto; position: relative;}
+.container-fluid{ width:100%;}
+body{
+    font-family: Arial;
+    background-color: white;
+}
+.header{
+    width: 1080px;height: 81px;margin: 0 auto;
+}
+.header .head-logo{
+    width: 162px;
+    height: 44px;
+    margin-top: 19px;
+    float: left;
+}
+.header .head-logo img{
+    width: 100%;
+    height: 100%;
+}
+.header .head-menu{
+    float: right;
+}
+.header .head-menu  ul{
+    font-size: 14px;
+    line-height: 81px;
+}
+.header .head-menu  ul li{
+    float: left;
+    margin-left: 58px;
+}
+.banner{
+    width: 100%;
+    height: 469px;
+}
+.banner .banner-list{
+    width: 100%;
+    height: 469px;
+    position: relative;
+}
+.banner .banner-list li{
+    width:100%;
+    height:100%;
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute; 
+
+}
+.banner .banner-list li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.banner .banner-btn{
+    width:100%; 
+    position: relative; 
+    bottom:31px; 
+    z-index: 20; 
+    font-size:0; 
+    text-align: center;
+}
+.banner .banner-btn li{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border:2px solid white; 
+    border-radius: 50%; 
+    box-sizing: border-box; 
+    margin:0 6px; 
+    cursor: pointer;
+}
+.banner .banner-btn .active{
+    background-color: white;
+}
+.service{
+    height: 407px;
+}
+.service .area_title{
+    height: 54px;
+    padding-top: 60px;
+    text-align: center;
+}
+.service .area_title h2{
+    height: 20px;
+    line-height: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #363636;
+    background: url(../img/title_bg.png) no-repeat center 7px;
+}
+.service .area_title p{
+    color: #9F9F9F;
+    font-size: 14px;
+    line-height: 34px;
+}
+.service .service_list{
+    text-align: center;
+    margin-top: 34px;
+}
+.service .service_list li{
+    width: 250px;
+    height: 207px;
+    margin: 0 10px;
+    float: left;
+}
+.service .service_list li div{
+    width: 102px;
+    height: 102px;
+    margin: 0 auto;
+}
+.service .service_list li h3{
+    font-size: 18px;
+    color: #434343;
+    line-height: 36px;
+    margin-top: 25px;
+}
+.service .service_list li p{
+    font-size: 14px;
+    color: #6D6D6D;
+    line-height: 22px;
+}
+.case{
+    height: 460px;
+    min-height: 460px;
+    overflow: hidden;
+    background-color: #f8f8f8;
+}
+.case .area_title{
+    padding-top: 55px;
+    height: 54px;
+    text-align: center;
+}
+.case .area_title h2{
+    height: 20px;
+    line-height: 20px;
+    font-size: 20px;
+    color: #66C5B4;
+    background: url(../img/title_bg.png) no-repeat center 7px;
+    font-weight: normal;
+}
+.case .area_title p{
+    color: #9F9F9F;
+    font-size: 14px;
+    line-height: 34px;
+}
+.case .case_list{
+    margin-top: 28px;
+    height: 181px;
+}
+.case .case_list li{
+    float: left;
+    width: 340px;
+    margin: 0 10px;
+}
+.case .case_btn{
+    width: 176px;
+    height: 37px;
+    background: #66C5B4;
+    margin: 0 auto;
+    border-radius: 25px;
+    line-height: 37px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 36px;
+}
+.case .case_btn a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+.news{
+    height: 450px;
+    min-height: 450px;
+    overflow: hidden;
+}
+.news .area_title{
+    height: 54px;
+    padding-top: 65px;
+    text-align: center;
+}
+.news .area_title h2{
+    height: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 20px;
+    color: #363636;
+    background: url(../img/title_bg.png) no-repeat center 7px;
+}
+.news .area_title p{
+    color: #9F9F9F;
+    font-size: 14px;
+    line-height: 34px;
+}
+.news dl{
+    margin-top: 48px;
+}
+.news dl dt{
+    width: 234px;
+    height: 196px;
+    float: left;
+}
+.news dl dd{
+    width: 846px;
+    float: left;
+}
+.news dl dd li{
+    width: 50%;
+    float: left;
+    margin-bottom: 48px;
+}
+.news dl dd li .news_date{
+    width: 71px;
+    height: 70px;
+    border-right: 1px solid #DCDCDC;
+    text-align: center;
+    float: left;
+}
+.news dl dd li .news_date i{
+    color: #66C5B4;
+    font-size: 39px;
+    display: block;
+    font-weight: bold;
+    font-style: italic;
+}
+.news dl dd li .news_date span{
+    color: #999999;
+    font-size: 20px;
+    line-height: 36px;
+}
+.news dl dd li .news_text{
+    width: 310px;
+    margin-left: 20px;
+    float: left;
+}
+.news dl dd li .news_text h3{
+    font-weight: bold;
+    font-size: 14px;
+}
+.news dl dd li .news_text h3 a{
+    color: #3F3F3F;
+    font-weight: bold;
+}
+.news dl dd li .news_text p{
+    color: #A4A4A4;
+    font-size: 12px;
+    line-height: 21px;
+    margin-top: 17px;
+}
+.footer{ 
+    background: #66c5b4;
+}
+.footer .container{ 
+    height:54px; 
+    line-height: 54px; 
+    font-size:12px; 
+    color:white;
+}
+.footer .container p {
+    float: left;
+}
+.footer .container div{
+    float: right;
+}
+.footer div a{ 
+    color:white; 
+    margin:0 10px;
+}
